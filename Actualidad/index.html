@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100&display=swap" rel="stylesheet">
+	<title>Actualidad</title>
+</head>
+<body>
+	<header class="bg_animate">
+
+		  <section class="banner contenedor">
+            <secrion class="banner_title">
+         <h1>Actualidad</h1>
+         <br>
+            	<p>
+		Estoy en mi segundo año de universidad. Vivo con mis padres y mi hermana pequeña que está cursando 8° grado, en un apartamento acá en Bogotá. Tengo varios amigos tanto de la universidad como de colegio, con los que paso el rato saliendo o jugando videojuegos, pero estoy más enfocado en terminar con buen rendimiento en mi pregrado. Por ahora, no tengo trabajo, soy soltero y no he tenido alguna relación amorosa.
+	</p>
+	<br>
+	<p>
+		Me gusta el baloncesto y la natación, aunque no he podido practicarlos porque estoy con brackets, además de la edición de videos e imagen, tal que he usado programas como Photoshop, Adobe Premier, HitFilm, etc. Además de eso me gustan los videojuegos, sobre “RPG” y “Hack and slash”, como lo pueden ser “Hi-fi Rush” o “The world ends with you”. y anime, como mi obra audiovisual favorita “Steins;Gate”, de ciencia ficción. Con respecto a comidas me gustan las hamburguesas, de cualquier tipo, además de la lasaña, es muy buen, y gustos musicales, me gusta el rock, metal y pop, como Metallica, AC/DC y Michael Jackson. &nbsp;
+	</p>
+	<br>
+	<p>
+		Pero para mi sobre todo, me gusta el desarrollo de videojuegos y web, ya que me parece interesante lo que se puede lograr con esto, tanto así que mi carrera por si no lo has notado está muy relacionada con esto. 
+	</p>
+	<br>
+	<p>
+		Pero como cualquier persona no me gusta todo en este mundo. Algo que me disgusta en general es jugar futbol, verlo como partidos y todo eso no me es indiferente, pero ya ponerlo en práctica es en sí lo que no me gusta, hay mejores deportes la verdad. Además de eso, con respecto a comidas, no me gustan las uvas pasas, porque en si el sabor solo es desagradable, al menos para mí, pero si se colocas en tortas o algunos postres, ahí no me quejo tanto. 
+	</p>
+            </secrion>
+            <div class="banner_img">
+                <img src="WhatsApp Image 2023-01-27 at 7.32.png" alt="">
+            </div>
+        </section>
+        <div class="header_nav">
+            <div class="contenedor">
+                <nav>
+                    <a href="../Presentacion/index.html">Atrás</a>
+                    <a href="../Proyeccion Futura/index.html">Siguiente</a>
+                </nav>
+            </div>
+        </div>
+
+      
+
+        <div class="burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+    </header>
+
+
+	<style type="text/css">
+		
+
+	*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Grandstander', cursive;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.bg_animate{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #005C98, #1ca0ff);
+    position: relative;
+    overflow: hidden;
+}
+
+.header_nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header_nav .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+h1{
+	 text-shadow: 4px  0px 0px black,
+               0px  4px 0px black,
+              -4px  0px 0px black,
+               0px -4px 0px black;
+    color: #fff;
+    font-family: 'Sedgwick Ave Display', cursive;
+    animation-name: slidein;
+	animation-duration: 3s;
+}
+
+
+.header_nav nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.banner_title h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family: 'Rock Salt', cursive;
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+p{
+	animation-name: slidein;
+	animation-duration: 3s;
+}
+
+@keyframes slidein{
+					0%{
+						color: transparent;
+					}
+					50%{
+						transform: translate3d(20px, 0px, 0px);
+
+					}
+				}
+
+.banner_title .llamanos{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background: #00122b;
+    padding: 20px;
+}
+
+.banner_img{
+    animation: movimiento 2.5s linear infinite;
+}
+
+.banner_img img{
+    width: 600px;
+    display: block;
+}
+
+/* burbujas */
+
+.burbuja{
+    border-radius: 50%;
+    background: #fff;
+    opacity: .3;
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+.burbuja:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 1.5s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 6s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(5){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+.burbuja:nth-child(6){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 7s;
+}
+
+.burbuja:nth-child(7){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(8){
+    width: 100;
+    height: 100px;
+    left: 52%;
+    animation-duration: 5s;
+    animation-delay: 4s;
+}
+
+.burbuja:nth-child(9){
+    width: 65px;
+    height: 65px;
+    left: 51%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(10){
+    width: 40px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 6s;
+}
+
+
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        transform: translateX(30px);
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+		</style>
+
+</body>
+</html>
