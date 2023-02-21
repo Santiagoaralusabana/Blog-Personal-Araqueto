@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100&display=swap" rel="stylesheet">
+	<title>Presentación</title>
+</head>
+<body>
+	<header class="bg_animate">
+
+		<section class="banner contenedor">
+            <secrion class="banner_title">
+            	<h1>Presentación</h1><br>
+            	<p>
+		Hola usuario, bienvenido a mi blog, déjame presentarme, mi nombre es Santiago Araque, tengo 19 años, actualmente soy estudiante de universidad de la Sabana en ingeniería informática de tercer semestre.
+				</p>
+				<br>
+
+                <h2>
+		Mi historia 
+		</h2>
+		<p>
+		Nací el 5 de febrero de 2004 en Bogotá D.C, Colombia. Tuve una infancia relativamente normal, pase casi toda mi primaria en el Colegio Alfonso Jaramillo, pero para grado 5°, tuve que irme y mudarme por un tiempo a Florencia, Caquetá, en el Liceo Superior Primeras Luces, pero me devolví para Bogotá y al mismo anterior colegio para hacer bachillerato después de un año. Termine graduándome en el 2021 de ese Colegio con buenos resultados, no los mejores, y termine aplicando para algunas universidades, como la del Bosque y en la Julio Garavito, pero termine eligiendo la Sabana. 
+		</p>
+            </secrion>
+            <div class="banner_img">
+                <img src="247df4c4-ad2d-44a0-88b6-bba1107fc220.png" alt="">
+            </div>
+        </section>
+
+        <div class="header_nav">
+            <div class="contenedor">
+                <nav>
+                    <a href="../index.html">Atrás</a>
+                    <a href="../Actualidad/index.html">Siguiente</a>
+                </nav>
+            </div>
+        </div>
+
+        
+        <div class="burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+    </header>
+
+
+	<style type="text/css">
+		
+
+	*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Grandstander', cursive;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.bg_animate{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #005C98, #1ca0ff);
+    position: relative;
+    overflow: hidden;
+}
+
+.header_nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header_nav .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+h1{
+	 text-shadow: 4px  0px 0px black,
+               0px  4px 0px black,
+              -4px  0px 0px black,
+               0px -4px 0px black;
+    color: #fff;
+    font-family: 'Sedgwick Ave Display', cursive;
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+
+.header_nav nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.banner_title h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family: 'Rock Salt', cursive;
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+p{
+	animation-name: slidein;
+	animation-duration: 3s;
+}
+
+@keyframes slidein{
+					0%{
+						color: transparent;
+					}
+					50%{
+						transform: translate3d(20px, 0px, 0px);
+
+					}
+				}
+
+.banner_title .llamanos{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background: #00122b;
+    padding: 20px;
+}
+
+.banner_img{
+    animation: movimiento 2.5s linear infinite;
+}
+
+.banner_img img{
+    width: 600px;
+    display: block;
+}
+
+/* burbujas */
+
+.burbuja{
+    border-radius: 50%;
+    background: #fff;
+    opacity: .3;
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+.burbuja:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 1.5s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 6s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(5){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+.burbuja:nth-child(6){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 7s;
+}
+
+.burbuja:nth-child(7){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(8){
+    width: 100;
+    height: 100px;
+    left: 52%;
+    animation-duration: 5s;
+    animation-delay: 4s;
+}
+
+.burbuja:nth-child(9){
+    width: 65px;
+    height: 65px;
+    left: 51%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(10){
+    width: 40px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 6s;
+}
+
+
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        transform: translateX(30px);
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+		</style>
+
+</body>
+</html>
